@@ -28,6 +28,5 @@ def power(num1, num2):
 
 def mod(num1, num2):
     """Returns the remainder when the first integer is divided by the second integer"""
-    modu = num1 / num2
-    remainder = num1 - (num2 * modu)
-    return remainder
+    return num1 % num2
+
