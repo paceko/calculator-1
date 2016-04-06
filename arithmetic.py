@@ -26,9 +26,14 @@ def square(num1):
 def cube(num1):
     """Returns the cube of the input"""
     total = num1 ** 3
+    return total
 
 def power(num1, num2):
-    pass
+    """Raises the first integer to the power of the second integer and returns the value."""
+    return num1 ** num2
 
 def mod(num1, num2):
-    pass
+    """Returns the remainder when the first integer is divided by the second integer"""
+    modu = num1 / num2
+    remainder = num1 - (num2 * modu)
+    return remainder
