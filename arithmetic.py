@@ -1,10 +1,24 @@
-def add(num1, num2):
+def add(*args):
     """ Returns the sum of the two input integers"""
-    return num1 + num2 
+    total = 0
+    for arg in args:
+        total = total + arg # total += arg
+    return (total)
 
 def subtract(num1, num2):
     """Returns the second number subtracted from the first"""
-    return num1 - num2
+    return num1 - num2 
+    # total = 0
+    # for arg in args:
+    #     num1 = arg
+    #     total = num1
+    #     print "test 1"
+    #     break
+
+    # for arg in args:
+    #         total = total - arg 
+    #         print "test 2"
+    # return (total) 
 
 def multiply(num1, num2):
     """Multiplies the two inputs together"""
